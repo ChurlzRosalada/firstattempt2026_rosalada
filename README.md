@@ -77,6 +77,8 @@ File attachments used: 18 PNG screenshots of the mobile app design.
 <img width="430" height="923" alt="image" src="https://github.com/user-attachments/assets/e3451e6f-4bdb-4869-85ad-f852b9087098" />
 <img width="430" height="924" alt="image" src="https://github.com/user-attachments/assets/0c2b251b-0ebc-40f8-a2e0-a91260d49828" />
 <img width="430" height="919" alt="image" src="https://github.com/user-attachments/assets/bfc9d192-3bb5-4465-8bf8-bb7baf4dd220" />
+<img width="427" height="922" alt="image" src="https://github.com/user-attachments/assets/15d640b7-a8ea-4b78-862b-04db6e9cf5c6" />
+<img width="429" height="920" alt="image" src="https://github.com/user-attachments/assets/d6ca4f9f-358c-4814-b6a4-6954507e303e" />
 
 
 
