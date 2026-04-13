@@ -1,7 +1,7 @@
-# Santos
+# Rosalada
 
 **Framework:** Vue.js 3 (Vite)
-**Module:** Web Systems / Application Development
+**Module:** 2
 
 ---
 
@@ -23,10 +23,10 @@ Follow these steps to run the project on a different computer:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/firstattempt2026_lastname.git
+git clone https://github.com/ChurlzRosalada/firstattempt2026_rosalada.git
 
 # 2. Navigate into the project folder
-cd firstattempt2026_lastname
+cd firstattempt2026_rosalada
 
 # 3. Install dependencies
 npm install
@@ -63,25 +63,23 @@ File attachments used: 18 PNG screenshots of the mobile app design.
 
 ## Screenshots
 
-> *(Add full browser screenshots here after running the app locally. Label each screenshot with the page name, e.g., "01_Login.png", "02_Register_Step1.png", etc.)*
+<img width="432" height="922" alt="image" src="https://github.com/user-attachments/assets/91cacabe-5097-46df-9814-7a4fe6b656f0" />
+<img width="433" height="923" alt="image" src="https://github.com/user-attachments/assets/d46c63fb-a425-43a8-9bac-b8048fd4fbd4" />
+<img width="430" height="922" alt="image" src="https://github.com/user-attachments/assets/50857465-e633-4e74-976e-fdcd36ccff36" />
+<img width="429" height="921" alt="image" src="https://github.com/user-attachments/assets/b485beef-4d4b-4629-b2bb-49d90a2e7941" />
+<img width="431" height="922" alt="image" src="https://github.com/user-attachments/assets/b1ad9fac-7847-4e08-9b6c-ee06a7efd10e" />
+<img width="430" height="923" alt="image" src="https://github.com/user-attachments/assets/66df4e9a-e636-47e7-a457-a2fb35ec2a95" />
+<img width="430" height="923" alt="image" src="https://github.com/user-attachments/assets/68c63508-7087-4199-9555-eedcb46b997a" />
+<img width="428" height="922" alt="image" src="https://github.com/user-attachments/assets/723410e2-e951-47bc-8336-8d9fee90b3b8" />
+<img width="429" height="924" alt="image" src="https://github.com/user-attachments/assets/e0a3dfb9-8d04-489b-ba61-cbcfc06299e2" />
+<img width="431" height="923" alt="image" src="https://github.com/user-attachments/assets/d3644fcf-500f-45e9-80f9-c0ee560f8a34" />
+<img width="429" height="925" alt="image" src="https://github.com/user-attachments/assets/9dbd82a4-2f3e-4974-8f7e-46222c799aee" />
+<img width="430" height="923" alt="image" src="https://github.com/user-attachments/assets/e3451e6f-4bdb-4869-85ad-f852b9087098" />
+<img width="430" height="924" alt="image" src="https://github.com/user-attachments/assets/0c2b251b-0ebc-40f8-a2e0-a91260d49828" />
+<img width="430" height="919" alt="image" src="https://github.com/user-attachments/assets/bfc9d192-3bb5-4465-8bf8-bb7baf4dd220" />
 
-| Page | Screenshot |
-|------|-----------|
-| Login | `screenshots/01_Login.png` |
-| Register – Step 1 | `screenshots/02_Register_Personal.png` |
-| Register – Step 2 | `screenshots/03_Register_Academic.png` |
-| Register – Step 3 | `screenshots/04_Register_Review.png` |
-| Forgot Password | `screenshots/05_ForgotPassword.png` |
-| Home / Feed | `screenshots/06_Home.png` |
-| Alumni Directory | `screenshots/07_Directory.png` |
-| Mentorship Hub | `screenshots/08_MentorshipHub.png` |
-| Request Mentorship | `screenshots/09_RequestMentorship.png` |
-| Events | `screenshots/10_Events.png` |
-| Event Detail | `screenshots/11_EventDetail.png` |
-| Ticket Details | `screenshots/12_TicketDetails.png` |
-| Check-in Success | `screenshots/13_CheckinSuccess.png` |
-| Personalized Calendar | `screenshots/14_Calendar.png` |
-| Alumni Profile | `screenshots/15_Profile.png` |
-| Notification Settings | `screenshots/16_NotificationSettings.png` |
-| Targeted Invites | `screenshots/17_TargetedInvites.png` |
-| Admin Event Manager | `screenshots/18_AdminEventManager.png` |
+
+
+
+
+
