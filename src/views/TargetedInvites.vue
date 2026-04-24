@@ -1,5 +1,5 @@
 <template>
-  <div class="invites-page page">
+  <div class="page-content">
     <div class="page-header">
       <button class="back-btn" @click="$router.back()">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>

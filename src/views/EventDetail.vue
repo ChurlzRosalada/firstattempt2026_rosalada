@@ -1,5 +1,5 @@
 <template>
-  <div class="event-detail-page page">
+  <div class="page-content">
     <div class="hero-section">
       <div class="hero-img">
         <div class="hero-overlay"></div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-page page">
+  <div class="page-content">
     <!-- Hero -->
     <div class="profile-hero">
       <div class="profile-cover"></div>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline — AdDU Alumni</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #1a3a6b;
+      --gold: #c9a84c;
+      --light: #f5f6fa;
+    }
+    body {
+      min-height: 100vh;
+      background: var(--navy);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .logo-ring {
+      width: 90px; height: 90px;
+      border: 3px solid var(--gold);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 1.5rem;
+      font-size: 2rem; font-weight: 700; color: var(--gold);
+    }
+    h1 { font-size: 1.6rem; margin-bottom: 0.5rem; color: var(--gold); }
+    p  { font-size: 1rem; opacity: 0.8; max-width: 320px; line-height: 1.6; margin-bottom: 1.8rem; }
+    .badge {
+      background: rgba(201,168,76,.15);
+      border: 1px solid var(--gold);
+      border-radius: 20px;
+      padding: 0.4rem 1.1rem;
+      font-size: 0.8rem;
+      color: var(--gold);
+      margin-bottom: 2rem;
+    }
+    button {
+      background: var(--gold);
+      color: var(--navy);
+      border: none; border-radius: 8px;
+      padding: 0.75rem 2rem;
+      font-size: 1rem; font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover { opacity: 0.9; }
+    .tagline { margin-top: 2.5rem; font-size: 0.75rem; opacity: 0.4; }
+  </style>
+</head>
+<body>
+  <div class="logo-ring">A</div>
+  <h1>You're Offline</h1>
+  <p>No internet connection detected. Please check your network and try again.</p>
+  <div class="badge">AdDU Alumni Portal</div>
+  <button onclick="window.location.reload()">Try Again</button>
+  <p class="tagline">Fortes in Fide</p>
+</body>
+</html>

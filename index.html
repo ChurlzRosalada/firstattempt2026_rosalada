@@ -3,13 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary Meta ─────────────────────────────────────────────────── -->
   <title>AdDU Alumni</title>
+  <meta name="description" content="The official alumni community portal for Ateneo de Davao University." />
+  <meta name="theme-color" content="#1a3a6b" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <!-- ── Apple PWA Meta ───────────────────────────────────────────────── -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="AdDU Alumni" />
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png" />
+
+  <!-- ── PWA Manifest ─────────────────────────────────────────────────── -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- ── Favicon ──────────────────────────────────────────────────────── -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-72x72.png" />
+
+  <!-- ── Fonts ────────────────────────────────────────────────────────── -->
+  <!--
+    Fonts load non-blocking via the media="print" trick.
+    The Service Worker caches the font CSS + WOFF2 files on first online
+    visit so they are available offline from the second visit onwards.
+    System fonts are used as fallback when offline on the very first visit.
+  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+        media="print"
+        onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap">
+  </noscript>
+  <style>
+    /* System-font stack — used offline or before fonts load */
+    :root {
+      --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+      --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+  </style>
+
   <style>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }</style>
 </head>
 <body>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
+
+  <!-- ── Service Worker Registration ─────────────────────────────────── -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('/sw.js', { scope: '/' })
+          .then((registration) => {
+            console.log('[App] Service Worker registered:', registration.scope);
+
+            // Notify user when a new SW version is waiting
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  console.log('[App] New SW version available — reload to update.');
+                }
+              });
+            });
+          })
+          .catch((err) => console.error('[App] SW registration failed:', err));
+      });
+    }
+  </script>
 </body>
 </html>

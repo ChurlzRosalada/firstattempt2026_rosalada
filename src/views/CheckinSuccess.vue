@@ -1,5 +1,5 @@
 <template>
-  <div class="checkin-page page">
+  <div class="page-content">
     <button class="close-btn" @click="$router.push('/events')">✕</button>
     <div class="checkin-content stagger">
       <div class="success-anim">
