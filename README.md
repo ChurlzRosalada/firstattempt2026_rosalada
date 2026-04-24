@@ -192,19 +192,3 @@ npx vite preview --port 5173
 
 ## Screenshots
 
-<img width="432" height="922" alt="Home" src="https://github.com/user-attachments/assets/91cacabe-5097-46df-9814-7a4fe6b656f0" />
-<img width="433" height="923" alt="Directory" src="https://github.com/user-attachments/assets/d46c63fb-a425-43a8-9bac-b8048fd4fbd4" />
-<img width="430" height="922" alt="Events" src="https://github.com/user-attachments/assets/50857465-e633-4e74-976e-fdcd36ccff36" />
-<img width="429" height="921" alt="Mentorship" src="https://github.com/user-attachments/assets/b485beef-4d4b-4629-b2bb-49d90a2e7941" />
-<img width="431" height="922" alt="image" src="https://github.com/user-attachments/assets/b1ad9fac-7847-4e08-9b6c-ee06a7efd10e" />
-<img width="430" height="923" alt="image" src="https://github.com/user-attachments/assets/66df4e9a-e636-47e7-a457-a2fb35ec2a95" />
-<img width="430" height="923" alt="image" src="https://github.com/user-attachments/assets/68c63508-7087-4199-9555-eedcb46b997a" />
-<img width="428" height="922" alt="image" src="https://github.com/user-attachments/assets/723410e2-e951-47bc-8336-8d9fee90b3b8" />
-<img width="429" height="924" alt="image" src="https://github.com/user-attachments/assets/e0a3dfb9-8d04-489b-ba61-cbcfc06299e2" />
-<img width="431" height="923" alt="image" src="https://github.com/user-attachments/assets/d3644fcf-500f-45e9-80f9-c0ee560f8a34" />
-<img width="429" height="925" alt="image" src="https://github.com/user-attachments/assets/9dbd82a4-2f3e-4974-8f7e-46222c799aee" />
-<img width="430" height="923" alt="image" src="https://github.com/user-attachments/assets/e3451e6f-4bdb-4869-85ad-f852b9087098" />
-<img width="430" height="924" alt="image" src="https://github.com/user-attachments/assets/0c2b251b-0ebc-40f8-a2e0-a91260d49828" />
-<img width="430" height="919" alt="image" src="https://github.com/user-attachments/assets/bfc9d192-3bb5-4465-8bf8-bb7baf4dd220" />
-<img width="427" height="922" alt="image" src="https://github.com/user-attachments/assets/15d640b7-a8ea-4b78-862b-04db6e9cf5c6" />
-<img width="429" height="920" alt="image" src="https://github.com/user-attachments/assets/d6ca4f9f-358c-4814-b6a4-6954507e303e" />
