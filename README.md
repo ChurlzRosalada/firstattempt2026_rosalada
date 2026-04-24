@@ -192,3 +192,21 @@ npx vite preview --port 5173
 
 ## Screenshots
 
+<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/32d2521c-8bd9-42bd-b4e4-a6633a7b7f70" />
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/3e0a17b0-353b-480c-acc4-bf8880364724" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/452bf6e2-d7cb-4b34-9dd1-112fe7605749" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ad9cc02-66a7-4dea-8d3b-4924f4b51cdf" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/05a33067-b8a9-47cb-85ad-844dcf31c60d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b7703607-2364-44c5-b9f9-407777d09ed6" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c931101-f2bf-4714-b82e-2b9883c58b8f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20803cd5-24a5-4308-bad4-f43b9275441c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab0135e5-c303-4596-8c30-96a8160f14b1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47998e28-fab2-4cd7-957a-38a1c0d6c143" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/37b13d34-4226-4bf4-94f1-a31f1ac1662e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/92e4d02a-4d96-491c-80d4-8bcfb674c995" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc325071-dc22-4bd7-bb14-b8a2ceccf032" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0dee6401-6668-4e7d-9112-fdf2d051c362" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9f62abd-acad-464b-b2a3-e8b6f28c0d73" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8611eb7-3e54-4c97-ae0a-dceba5aa781f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ff201c2-cdcd-43bf-aff0-1a4f651794cf" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f80cc71-3bb2-4cae-9ab5-69c53ba53a70" />
